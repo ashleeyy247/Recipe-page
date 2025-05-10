@@ -30,7 +30,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   font-family: "Outfit", sans-serif;
   line-height: 1.6;
   font-size: 16px;
@@ -40,7 +40,7 @@ body {
 
 .card {
   width: 760px;
-  margin: auto;
+  margin: 48px auto;
   border-radius: 20px;
   background-color: var(--white);
   padding: 48px;
