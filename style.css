@@ -1,0 +1,154 @@
+:root {
+  --white: hsl(0, 0%, 100%);
+  --stone-100: hsl(30, 54%, 90%);
+  --stone-150: hsl(30, 18%, 87%);
+  --stone-600: hsl(30, 10%, 34%);
+  --stone-900: hsl(24, 5%, 18%);
+  --brown-800: hsl(14, 45%, 36%);
+  --rose-800: hsl(332, 51%, 32%);
+  --rose-50: hsl(330, 100%, 98%);
+}
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Outfit", sans-serif;
+  line-height: 1.6;
+  font-size: 16px;
+  color: var(--stone-600);
+  background-color: var(--stone-100);
+}
+
+.card {
+  width: 760px;
+  margin: auto;
+  border-radius: 20px;
+  background-color: var(--white);
+  padding: 48px;
+}
+
+img {
+  max-inline-size: 100%;
+  border-radius: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card-title {
+  font-family: "Young Serif", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: var(--stone-900);
+  margin: 16px 0;
+}
+
+.prep-container {
+  border-radius: 10px;
+  background-color: var(--rose-50);
+  margin: 24px 0;
+  padding: 24px;
+}
+
+.prep-container > :first-child {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--rose-800);
+}
+
+ul,
+ol {
+  padding-left: 20px;
+  font-size: 0.875rem;
+  list-style-position: outside;
+}
+
+ul > li,
+ol > li {
+  padding-left: 16px;
+  margin: 8px 0;
+}
+
+.prep-container ul > li {
+  padding-left: 20px;
+}
+
+.prep-container ul > li::marker {
+  color: var(--rose-800);
+}
+
+ul > li::marker,
+ol > li::marker {
+  color: var(--brown-800);
+  font-weight: 400;
+}
+
+ol > li::marker {
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+}
+
+span {
+  font-weight: 700;
+  color: var(--stone-600);
+}
+hr {
+  margin: 24px 0;
+  border: none;
+  border-top: 1px solid var(--stone-600);
+}
+.section-title {
+  font-family: "Young Serif", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--brown-800);
+  margin-bottom: 8px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 16px;
+}
+td {
+  border-bottom: 1px solid var(--stone-100);
+  padding: 8px 8px 8px 32px;
+}
+
+tr :nth-of-type(2) {
+  width: 50%;
+  padding-left: 0px;
+  font-weight: 700;
+  color: var(--brown-800);
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+@media (max-width: 760px) {
+  .card {
+    width: 100%;
+  }
+}
