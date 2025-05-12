@@ -151,7 +151,7 @@ tr:last-child td {
 @media (max-width: 740px) {
   .card {
     width: 100%;
-    margin: auto;
+    margin: 0 auto;
     border-radius: none;
     padding: 0;
   }
