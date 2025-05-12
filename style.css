@@ -40,7 +40,7 @@ body {
 
 .card {
   width: 760px;
-  margin: 72px auto;
+  margin: 80px auto;
   border-radius: 20px;
   background-color: var(--white);
   padding: 48px;
@@ -116,7 +116,7 @@ span {
 hr {
   margin: 24px 0;
   border: none;
-  border-top: 1px solid var(--stone-600);
+  border-top: 1px solid var(--stone-150);
 }
 .section-title {
   font-family: "Young Serif", sans-serif;
