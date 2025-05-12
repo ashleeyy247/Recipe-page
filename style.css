@@ -40,7 +40,7 @@ body {
 
 .card {
   width: 760px;
-  margin: 80px auto;
+  margin: 96px auto;
   border-radius: 20px;
   background-color: var(--white);
   padding: 48px;
